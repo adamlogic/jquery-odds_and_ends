@@ -1,0 +1,24 @@
+h1. jquery-odds_and_ends
+
+h2. What is it?
+
+A handful of little unrelated niceties that are too small to justify their own plugins.
+
+h2. Methods
+
+h3. confirmation()
+
+Intercepts the click event with a generic (and annoying) confirmation box. Cancels the action per the user's response.
+
+h3. printOnClick()
+
+Intercepts the click event, calls window.print(), and stops the event.
+
+h3. toggleTarget()
+
+Intercepts the click event, uses the elements <code>target</code> attribute as a selector to find an element to toggle, then stops the event.
+
+h3. $.number()
+
+Extracts the number out of a string.
+<code>$.number('alsiejflij3.14alsiejf') // 3.14</code>
